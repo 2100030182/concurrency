@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
+#include "student.h"
 int main() {
-    cout << "Concurrency project initialized" << endl;
+    Student s;
+    s.id = 1;
+    s.arrivalTime = 2;
+    s.washingTime = 5;
+    cout << "Student " << s.id << " created" << endl;
     return 0;
 }
