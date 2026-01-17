@@ -5,4 +5,5 @@ struct Student {
     int arrivalTime;
     int washingTime;
 };
+void washStudent(Student s);
 #endif
